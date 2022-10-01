@@ -20,6 +20,7 @@ function TaskForm({ createTask }) {
           setTitle(e.target.value);
         }}
         value={title}
+        autoFocus
       />
       <textarea
         cols="30"
