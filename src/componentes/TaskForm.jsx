@@ -12,12 +12,12 @@ function TaskForm({createTask}) {
     <form onSubmit={handleSubmit}>
       <input
         type="text"
-        placeholder="Escribe una tarea"
+        placeholder="Task title"
         onChange={(e) => {
           setTitle(e.target.value);
         }}
       />
-      <button>Guardar tarea</button>
+      <button>Save!</button>
     </form>
   );
 }
