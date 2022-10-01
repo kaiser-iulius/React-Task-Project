@@ -19,6 +19,7 @@ function TaskForm({ createTask }) {
         onChange={(e) => {
           setTitle(e.target.value);
         }}
+        value={title}
       />
       <textarea
         cols="30"
@@ -27,6 +28,7 @@ function TaskForm({ createTask }) {
         onChange={(e) => {
           setDescription(e.target.value);
         }}
+        value={description} //Para que una vez enviado quede vacio el input
       ></textarea>
       <button>Save!</button>
     </form>
