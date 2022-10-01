@@ -1,13 +1,13 @@
-import TaskList from './componentes/TaskList'
-import TaskForm from './componentes/TaskForm'
+import TaskList from "./componentes/TaskList";
+import TaskForm from "./componentes/TaskForm";
 
 function App() {
   return (
     <div>
-        <TaskList />
-        <TaskForm />
+      <TaskForm />
+      <TaskList />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
