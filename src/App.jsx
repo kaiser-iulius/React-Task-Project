@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-      <TaskForm key={task.id} createTask={createTask} />
+      <TaskForm createTask={createTask} />
       <TaskList tasks={tasks} />
     </>
   );
