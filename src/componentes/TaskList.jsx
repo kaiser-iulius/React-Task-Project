@@ -1,5 +1,5 @@
 function TaskList(props) {
-  if (tasks.length === 0) {
+  if (props.tasks.length === 0) {
     return <h1>No hay tareas aun...</h1>;
   }
 
