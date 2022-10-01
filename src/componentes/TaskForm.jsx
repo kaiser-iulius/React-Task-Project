@@ -19,8 +19,6 @@ function TaskForm({ createTask }) {
         }}
       />
       <textarea
-        name=""
-        id=""
         cols="30"
         rows="1"
         placeholder="Task description"
