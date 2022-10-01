@@ -1,6 +1,6 @@
-import TaskCard from './TaskCard'
+import TaskCard from "./TaskCard";
 
-function TaskList({tasks}) {
+function TaskList({ tasks }) {
   if (tasks.length === 0) {
     return <h1>There are no tasks yet...</h1>;
   }
