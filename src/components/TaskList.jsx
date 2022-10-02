@@ -6,11 +6,11 @@ function TaskList() {
   const { tasks } = useContext(TaskContext);
 
   if (tasks.length === 0) {
-    return <h1>There are no tasks yet...</h1>;
+    return <h1 className="mx-auto py-20 text-4xl font-extrabold text-white text-center">There are no tasks yet...</h1>;
   }
 
   return (
-    <div>
+    <div className="grid grid-cols-4 gap-2">
       {tasks.map((task) => (
         <TaskCard key={task.id} task={task} />
       ))}
